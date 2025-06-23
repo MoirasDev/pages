@@ -1720,3 +1720,29 @@ input, select, textarea {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+.game-links {
+				margin-top: 1.5em;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 0.8em;
+			}
+			.game-links a {
+				display: flex;
+				align-items: center;
+				gap: 0.5em;
+				background: linear-gradient(135deg, #7f5af0, #5eead4);
+				color: white;
+				padding: 0.6em 1.5em;
+				border-radius: 30px;
+				text-decoration: none;
+				font-weight: bold;
+				transition: background 0.3s, transform 0.2s;
+			}
+			.game-links a:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+			}
+			.game-links img {
+				height: 1.2em;
+			}
