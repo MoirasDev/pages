@@ -1659,9 +1659,45 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+.project-card {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.project-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.project-image-wrapper img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.project-title {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+.project-title h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.title-underline {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #7f5af0, #5eead4);
+  margin: 0.3em auto 0;
+  border-radius: 2px;
+}
 /* Etiketler */
 .project-tags {
-  margin-top: 0.5em;
+  margin-top: 1em;
   display: flex;
   justify-content: center;
   gap: 0.8em;
