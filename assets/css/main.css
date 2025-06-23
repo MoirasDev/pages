@@ -194,7 +194,7 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0.5rem;
+			padding-bottom: 0.2rem;
 			margin: 0 0 0.5rem 0;
 		}
 
@@ -212,7 +212,6 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1rem;
-		padding-bottom: 0.15rem;
 	}
 
 	h4 {
@@ -697,7 +696,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 1.5rem 0;
+			margin: 2.5rem 0;
 			width: 100%;
 		}
 
@@ -708,7 +707,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 1rem 0;
+				margin: 2rem 0;
 			}
 
 		}
@@ -716,7 +715,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1rem 0;
+				margin: 1.5rem 0;
 			}
 
 		}
